@@ -7,7 +7,7 @@ build : reqs
 
 reqs :
 ifndef NINJA 
-	sudo cp ./ninja /usr/bin
+	cp ./ninja /usr/bin
 endif 
 	pip3 install -r requirements.txt
 
